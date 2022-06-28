@@ -6,11 +6,11 @@ entity ula_mod_tb is
 end;
 
 architecture tb of ula_mod_tb is
-    constant CLK_PERIOD: time := 4 ns;
+    constant CLK_PERIOD: time := 10 ns;
     
     component ula_mod is
         port(
-            mem: inout std_logic_vector(7 downto 0);
+            mem: in std_logic_vector(7 downto 0);
             mem_nrw: in std_logic;
     
             ula_op: in std_logic_vector(2 downto 0);    
@@ -40,7 +40,6 @@ begin
         sreset <= '0';
         smem_nrw <= '0';
         sac_nrw <= '0';
-
         wait for CLK_PERIOD;
         sreset <= '1';
         wait for CLK_PERIOD;
@@ -99,6 +98,6 @@ begin
 
     u_clk: process begin
         sclk <= not sclk;
-        wait for CLK_PERIOD / 2;
+        wait for CLK_PERIOD;
     end process;
 end;

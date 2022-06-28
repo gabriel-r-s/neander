@@ -5,6 +5,8 @@ entity ula_alu_tb is
 end;
 
 architecture tb of ula_alu_tb is
+    constant PERIOD: time := 10 ns;
+
     component ula_alu is
         port(
             x: in std_logic_vector(7 downto 0);
@@ -24,38 +26,41 @@ begin
     
     u_tb: process begin
         -- teste lda
-
-        sx <= "01010101";
-        sy <= "10101010";
+        sx <= "00000001";
+        sy <= "00000010";
         
+        sop <= "000";
+        wait for PERIOD;
+
+
         sop <= "001";
         -- x + y
         -- result = 11111111
         -- zf=0 nf=1
-        wait for 4 ns;
+        wait for PERIOD;
         
         sop <= "010";
         -- x | y
         -- result=111111111
         --zf=0 nf=1
-        wait for 4 ns;
+        wait for PERIOD;
 
         sop <= "011";
         -- x & y
         -- result=00000000
         --zf=1 nf=0
-        wait for 4 ns;
+        wait for PERIOD;
 
         sop <= "100";
         -- !x
         -- result = 10101010
         -- zf=0 nf=1
-        wait for 4 ns;
+        wait for PERIOD;
         
         sop <= "111";
         -- result = ZZZZZZZZ
         -- zf=? nf=?
-        wait for 4 ns;
+        wait for PERIOD;
         
         wait;
     end process;

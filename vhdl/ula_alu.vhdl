@@ -45,6 +45,7 @@ begin
               sand when op="011" else
               snot when op="100" else
               "ZZZZZZZZ";
+
     u_flags: calc_flag port map(result, zf, nf); 
     s <= result;        
 end;
