@@ -1,0 +1,33 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Jun 28 18:58:00 2022
+[*]
+[dumpfile] "/home/gabriel/code/vhdl/sd/neander/waves/ula_alu_tb.ghw"
+[dumpfile_mtime] "Tue Jun 28 18:55:45 2022"
+[dumpfile_size] 1270
+[savefile] "/home/gabriel/code/vhdl/sd/neander/waves/ula_alu_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-24.109449 42890000 2440000 12850000 23430000 33840000 42890000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[markername] ALDA Y
+[markername] BADD X, Y
+[markername] COR X, Y
+[markername] DAND X, Y
+[markername] ENOT X
+[treeopen] top.
+[treeopen] top.ula_alu_tb.
+[sst_width] 212
+[signals_width] 94
+[sst_expanded] 1
+[sst_vpaned_height] 149
+@28
+#{top.ula_alu_tb.sx[7:0]} top.ula_alu_tb.sx[7] top.ula_alu_tb.sx[6] top.ula_alu_tb.sx[5] top.ula_alu_tb.sx[4] top.ula_alu_tb.sx[3] top.ula_alu_tb.sx[2] top.ula_alu_tb.sx[1] top.ula_alu_tb.sx[0]
+#{top.ula_alu_tb.sy[7:0]} top.ula_alu_tb.sy[7] top.ula_alu_tb.sy[6] top.ula_alu_tb.sy[5] top.ula_alu_tb.sy[4] top.ula_alu_tb.sy[3] top.ula_alu_tb.sy[2] top.ula_alu_tb.sy[1] top.ula_alu_tb.sy[0]
+#{top.ula_alu_tb.sop[2:0]} top.ula_alu_tb.sop[2] top.ula_alu_tb.sop[1] top.ula_alu_tb.sop[0]
+@208
+-
+@28
+#{top.ula_alu_tb.ss[7:0]} top.ula_alu_tb.ss[7] top.ula_alu_tb.ss[6] top.ula_alu_tb.ss[5] top.ula_alu_tb.ss[4] top.ula_alu_tb.ss[3] top.ula_alu_tb.ss[2] top.ula_alu_tb.ss[1] top.ula_alu_tb.ss[0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 
+trash ./build/*
 cd build
 ghdl -a ../vhdl/*
 ghdl -e $1

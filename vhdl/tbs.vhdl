@@ -54,6 +54,7 @@ begin
     end process;
 end;
 
+
 -- tb registrador - ff c/ carga ==============================================
 library ieee;
 use ieee.std_logic_1164.all;
@@ -66,19 +67,19 @@ architecture tb of ffc_tb is
         
     component ff_charge is
         port(
-            d: in std_logic_vector(7 downto 0);
+            d: in std_logic;
             nrw: in std_logic;
             clk: in std_logic;
             pr, cl: in std_logic;
-            q: out std_logic_vector(7 downto 0)
+            q: out std_logic
         );
     end component;
 
-    signal sd: std_logic_vector(7 downto 0);
+    signal sd: std_logic;
     signal snrw: std_logic;
     signal sclk: std_logic := '0';
     signal spr, scl: std_logic;
-    signal sq: std_logic_vector(7 downto 0);
+    signal sq: std_logic;
 begin
     u_reg8: ff_charge port map(sd, snrw, sclk, spr, scl, sq);
     
@@ -97,22 +98,77 @@ begin
         spr <= '1';
         scl <= '1';
 
-        -- write
+        -- write 0
         snrw <= '1';
-        sd <= "00001111";
+        sd <= '0';
         wait for CLK_PERIOD;
 
         -- read
         snrw <= '0';
-        sd <= "11110000";
+        sd <= '1';
         wait for CLK_PERIOD;
 
-        -- write
+        -- write 1
         snrw <= '1';
-        sd <= "11110000";
+        sd <= '1';
         wait for CLK_PERIOD;
     end process;
 
+
+    u_clk: process begin
+        sclk <= not sclk;
+        wait for CLK_PERIOD / 2;
+    end process;
+end;
+
+-- tb ffd ======================================================
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity ffd_tb is
+end;
+
+architecture tb of ffd_tb is
+    constant CLK_PERIOD: time := 10 ns;
+
+    component ffd is
+        port(
+            d: in std_logic;
+            clk: in std_logic;
+            pr, cl: in std_logic;
+            q, nq: out std_logic
+        );
+    end component;
+
+    signal sd: std_logic;
+    signal sclk: std_logic := '1';
+    signal spr, scl: std_logic;
+    signal sq, snq: std_logic;
+begin
+    u_ffd: ffd port map(sd, sclk, spr, scl, sq, snq);
+    
+    u_tb: process begin
+        -- preset
+        spr <= '0';
+        scl <= '1';
+        wait for CLK_PERIOD;
+
+        -- clear
+        spr <= '1';
+        scl <= '0';
+        wait for 6 ns;
+
+        spr <= '1';
+        scl <= '1';
+        
+        -- set
+        sd <= '1';
+        wait for CLK_PERIOD;
+        
+        -- reset
+        sd <= '0';
+        wait for CLK_PERIOD;
+    end process;
 
     u_clk: process begin
         sclk <= not sclk;
@@ -233,9 +289,8 @@ begin
         sreset <= '0';
         smem_nrw <= '0';
         sac_nrw <= '0';
-        wait for CLK_PERIOD;
+        wait for CLK_PERIOD / 2;
         sreset <= '1';
-        wait for CLK_PERIOD;
         
         -- teste 1
         -- lda 11110000 -- AC: 11110000 ;; nf
@@ -284,8 +339,6 @@ begin
         sula_op <= "011";
         sac_nrw <= '1';
         wait for CLK_PERIOD;
-    
-
     end process;
 
 

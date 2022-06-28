@@ -17,7 +17,7 @@ entity ula_mod is
 end;
 
 architecture b of ula_mod is
-    component ac is
+    component reg8 is
         port(
             d: in std_logic_vector(7 downto 0);
             nrw: in std_logic;
@@ -52,6 +52,6 @@ architecture b of ula_mod is
 begin
     u_alu: ula_alu port map(ac_out, mem, ula_op, szf, snf, ula_out);
     u_flags: flags port map(szf, snf, ac_nrw, reset, clk, zf, nf);
-    u_ac: ac port map(ula_out, ac_nrw, reset, clk, ac_out);
+    u_ac: reg8 port map(ula_out, ac_nrw, reset, clk, ac_out);
     -- u_mem: ?
 end;

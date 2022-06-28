@@ -25,8 +25,8 @@ architecture b of flags is
     
     signal vcc: std_logic := '1';
 begin
-    u_zf: ff_charge port map(in_zf, nrw, clk, vcc, reset, zf);
-    u_nf: ff_charge port map(in_zf, nrw, clk, reset, vcc, nf);
+    u_zf: ff_charge port map(in_zf, nrw, clk, reset, vcc, zf);
+    u_nf: ff_charge port map(in_zf, nrw, clk, vcc, reset, nf);
 end;
 
 -- cálculo de flags =================================

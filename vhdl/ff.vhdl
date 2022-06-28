@@ -90,8 +90,9 @@ architecture b of ffd is
         );
     end component;
 
-    signal nd: std_logic := not d;
+    signal nd: std_logic;
 begin
+    nd <= not d;
     ff: ffjk port map(d, nd, clk, pr, cl, q, nq);
 end;
 

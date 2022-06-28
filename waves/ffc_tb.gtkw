@@ -1,0 +1,37 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Jun 28 18:55:15 2022
+[*]
+[dumpfile] "/home/gabriel/code/vhdl/sd/neander/waves/ffc_tb.ghw"
+[dumpfile_mtime] "Tue Jun 28 18:52:50 2022"
+[dumpfile_size] 977
+[savefile] "/home/gabriel/code/vhdl/sd/neander/waves/ffc_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-23.866474 42050000 2140000 12690000 21870000 32420000 42050000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[markername] Apreset
+[markername] Bclear
+[markername] Cwrite 0
+[markername] Dread
+[markername] Ewrite 1
+[treeopen] top.
+[sst_width] 212
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 149
+@28
+top.ffc_tb.sclk
+top.ffc_tb.spr
+top.ffc_tb.scl
+@200
+-
+@28
+top.ffc_tb.sd
+top.ffc_tb.snrw
+@201
+-
+@28
+top.ffc_tb.sq
+[pattern_trace] 1
+[pattern_trace] 0

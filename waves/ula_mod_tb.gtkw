@@ -1,0 +1,42 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Jun 28 19:18:49 2022
+[*]
+[dumpfile] "/home/gabriel/code/vhdl/sd/neander/waves/ula_mod_tb.ghw"
+[dumpfile_mtime] "Tue Jun 28 19:17:37 2022"
+[dumpfile_size] 5607
+[savefile] "/home/gabriel/code/vhdl/sd/neander/waves/ula_mod_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -115 -1
+*-24.359741 -1 5800000 23200000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.ula_mod_tb.
+[treeopen] top.ula_mod_tb.u_ula.
+[treeopen] top.ula_mod_tb.u_ula.u_alu.
+[sst_width] 212
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 149
+@28
+top.ula_mod_tb.sclk
+top.ula_mod_tb.sreset
+top.ula_mod_tb.sac_nrw
+top.ula_mod_tb.smem_nrw
+@200
+-
+@28
+#{top.ula_mod_tb.smem[7:0]} top.ula_mod_tb.smem[7] top.ula_mod_tb.smem[6] top.ula_mod_tb.smem[5] top.ula_mod_tb.smem[4] top.ula_mod_tb.smem[3] top.ula_mod_tb.smem[2] top.ula_mod_tb.smem[1] top.ula_mod_tb.smem[0]
+#{top.ula_mod_tb.sula_op[2:0]} top.ula_mod_tb.sula_op[2] top.ula_mod_tb.sula_op[1] top.ula_mod_tb.sula_op[0]
+top.ula_mod_tb.szf
+top.ula_mod_tb.u_ula.zf
+top.ula_mod_tb.snf
+top.ula_mod_tb.u_ula.nf
+@201
+-
+@28
+#{top.ula_mod_tb.u_ula.u_alu.result[7:0]} top.ula_mod_tb.u_ula.u_alu.result[7] top.ula_mod_tb.u_ula.u_alu.result[6] top.ula_mod_tb.u_ula.u_alu.result[5] top.ula_mod_tb.u_ula.u_alu.result[4] top.ula_mod_tb.u_ula.u_alu.result[3] top.ula_mod_tb.u_ula.u_alu.result[2] top.ula_mod_tb.u_ula.u_alu.result[1] top.ula_mod_tb.u_ula.u_alu.result[0]
+#{top.ula_mod_tb.u_ula.ac_out[7:0]} top.ula_mod_tb.u_ula.ac_out[7] top.ula_mod_tb.u_ula.ac_out[6] top.ula_mod_tb.u_ula.ac_out[5] top.ula_mod_tb.u_ula.ac_out[4] top.ula_mod_tb.u_ula.ac_out[3] top.ula_mod_tb.u_ula.ac_out[2] top.ula_mod_tb.u_ula.ac_out[1] top.ula_mod_tb.u_ula.ac_out[0]
+#{top.ula_mod_tb.u_ula.u_ac.q[7:0]} top.ula_mod_tb.u_ula.u_ac.q[7] top.ula_mod_tb.u_ula.u_ac.q[6] top.ula_mod_tb.u_ula.u_ac.q[5] top.ula_mod_tb.u_ula.u_ac.q[4] top.ula_mod_tb.u_ula.u_ac.q[3] top.ula_mod_tb.u_ula.u_ac.q[2] top.ula_mod_tb.u_ula.u_ac.q[1] top.ula_mod_tb.u_ula.u_ac.q[0]
+[pattern_trace] 1
+[pattern_trace] 0
