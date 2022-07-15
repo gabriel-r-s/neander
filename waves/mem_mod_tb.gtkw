@@ -1,0 +1,59 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Wed Jul  6 13:59:32 2022
+[*]
+[dumpfile] "/home/gabriel/code/vhdl/sd/neander/waves/mem_mod_tb.ghw"
+[dumpfile_mtime] "Wed Jul  6 13:55:18 2022"
+[dumpfile_size] 14835
+[savefile] "/home/gabriel/code/vhdl/sd/neander/waves/mem_mod_tb.gtkw"
+[timestart] 0
+[size] 1366 697
+[pos] -1 -1
+*-23.266436 21790000 8000000 16000000 24000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[markername] Aread 5
+[markername] Bwrite *64, 77
+[markername] Cread *64
+[treeopen] top.
+[treeopen] top.mem_mod_tb.
+[treeopen] top.mem_mod_tb.u_mem.
+[treeopen] top.mem_mod_tb.u_mem.u_mem.
+[treeopen] top.mem_mod_tb.u_mem.u_mem.ram.
+[sst_width] 212
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 183
+@24
+top.mem_mod_tb.sreset
+top.mem_mod_tb.sclk
+@200
+-
+-
+@24
+top.mem_mod_tb.smem_nrw
+top.mem_mod_tb.smar_nrw
+top.mem_mod_tb.smbr_nrw
+@200
+-
+@24
+top.mem_mod_tb.snb_pc
+#{top.mem_mod_tb.send_pc[7:0]} top.mem_mod_tb.send_pc[7] top.mem_mod_tb.send_pc[6] top.mem_mod_tb.send_pc[5] top.mem_mod_tb.send_pc[4] top.mem_mod_tb.send_pc[3] top.mem_mod_tb.send_pc[2] top.mem_mod_tb.send_pc[1] top.mem_mod_tb.send_pc[0]
+#{top.mem_mod_tb.send_bar[7:0]} top.mem_mod_tb.send_bar[7] top.mem_mod_tb.send_bar[6] top.mem_mod_tb.send_bar[5] top.mem_mod_tb.send_bar[4] top.mem_mod_tb.send_bar[3] top.mem_mod_tb.send_bar[2] top.mem_mod_tb.send_bar[1] top.mem_mod_tb.send_bar[0]
+@200
+-
+@24
+#{top.mem_mod_tb.sinterface[7:0]} top.mem_mod_tb.sinterface[7] top.mem_mod_tb.sinterface[6] top.mem_mod_tb.sinterface[5] top.mem_mod_tb.sinterface[4] top.mem_mod_tb.sinterface[3] top.mem_mod_tb.sinterface[2] top.mem_mod_tb.sinterface[1] top.mem_mod_tb.sinterface[0]
+#{top.mem_mod_tb.u_mem.smem_inout[7:0]} top.mem_mod_tb.u_mem.smem_inout[7] top.mem_mod_tb.u_mem.smem_inout[6] top.mem_mod_tb.u_mem.smem_inout[5] top.mem_mod_tb.u_mem.smem_inout[4] top.mem_mod_tb.u_mem.smem_inout[3] top.mem_mod_tb.u_mem.smem_inout[2] top.mem_mod_tb.u_mem.smem_inout[1] top.mem_mod_tb.u_mem.smem_inout[0]
+@200
+-memoria
+@28
+top.mem_mod_tb.u_mem.u_mem.reset
+top.mem_mod_tb.u_mem.u_mem.notrw
+@24
+#{top.mem_mod_tb.u_mem.u_mem.addr[7:0]} top.mem_mod_tb.u_mem.u_mem.addr[7] top.mem_mod_tb.u_mem.u_mem.addr[6] top.mem_mod_tb.u_mem.u_mem.addr[5] top.mem_mod_tb.u_mem.u_mem.addr[4] top.mem_mod_tb.u_mem.u_mem.addr[3] top.mem_mod_tb.u_mem.u_mem.addr[2] top.mem_mod_tb.u_mem.u_mem.addr[1] top.mem_mod_tb.u_mem.u_mem.addr[0]
+#{top.mem_mod_tb.u_mem.u_mem.data_out[7:0]} top.mem_mod_tb.u_mem.u_mem.data_out[7] top.mem_mod_tb.u_mem.u_mem.data_out[6] top.mem_mod_tb.u_mem.u_mem.data_out[5] top.mem_mod_tb.u_mem.u_mem.data_out[4] top.mem_mod_tb.u_mem.u_mem.data_out[3] top.mem_mod_tb.u_mem.u_mem.data_out[2] top.mem_mod_tb.u_mem.u_mem.data_out[1] top.mem_mod_tb.u_mem.u_mem.data_out[0]
+@25
+#{top.mem_mod_tb.u_mem.u_mem.data[7:0]} top.mem_mod_tb.u_mem.u_mem.data[7] top.mem_mod_tb.u_mem.u_mem.data[6] top.mem_mod_tb.u_mem.u_mem.data[5] top.mem_mod_tb.u_mem.u_mem.data[4] top.mem_mod_tb.u_mem.u_mem.data[3] top.mem_mod_tb.u_mem.u_mem.data[2] top.mem_mod_tb.u_mem.u_mem.data[1] top.mem_mod_tb.u_mem.u_mem.data[0]
+@22
+#{top.mem_mod_tb.u_mem.u_mem.ram[64][7:0]} top.mem_mod_tb.u_mem.u_mem.ram[64][7] top.mem_mod_tb.u_mem.u_mem.ram[64][6] top.mem_mod_tb.u_mem.u_mem.ram[64][5] top.mem_mod_tb.u_mem.u_mem.ram[64][4] top.mem_mod_tb.u_mem.u_mem.ram[64][3] top.mem_mod_tb.u_mem.u_mem.ram[64][2] top.mem_mod_tb.u_mem.u_mem.ram[64][1] top.mem_mod_tb.u_mem.u_mem.ram[64][0]
+[pattern_trace] 1
+[pattern_trace] 0

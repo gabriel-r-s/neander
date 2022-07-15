@@ -1,0 +1,34 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Jul  5 13:53:37 2022
+[*]
+[dumpfile] "/home/gabriel/code/vhdl/sd/neander/waves/mem_mod_tb.ghw"
+[dumpfile_mtime] "Tue Jul  5 13:48:13 2022"
+[dumpfile_size] 14300
+[savefile] "/home/gabriel/code/vhdl/sd/neander/waves/ula_mem_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -18 -12
+*-24.579941 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.mem_mod_tb.
+[sst_width] 212
+[signals_width] 150
+[sst_expanded] 1
+[sst_vpaned_height] 149
+@29
+top.mem_mod_tb.sclk
+@28
+top.mem_mod_tb.sreset
+@22
+#{top.mem_mod_tb.send_pc[7:0]} top.mem_mod_tb.send_pc[7] top.mem_mod_tb.send_pc[6] top.mem_mod_tb.send_pc[5] top.mem_mod_tb.send_pc[4] top.mem_mod_tb.send_pc[3] top.mem_mod_tb.send_pc[2] top.mem_mod_tb.send_pc[1] top.mem_mod_tb.send_pc[0]
+#{top.mem_mod_tb.send_bar[7:0]} top.mem_mod_tb.send_bar[7] top.mem_mod_tb.send_bar[6] top.mem_mod_tb.send_bar[5] top.mem_mod_tb.send_bar[4] top.mem_mod_tb.send_bar[3] top.mem_mod_tb.send_bar[2] top.mem_mod_tb.send_bar[1] top.mem_mod_tb.send_bar[0]
+@28
+top.mem_mod_tb.snb_pc
+top.mem_mod_tb.smar_nrw
+top.mem_mod_tb.smem_nrw
+top.mem_mod_tb.smbr_nrw
+@24
+#{top.mem_mod_tb.sinterface[7:0]} top.mem_mod_tb.sinterface[7] top.mem_mod_tb.sinterface[6] top.mem_mod_tb.sinterface[5] top.mem_mod_tb.sinterface[4] top.mem_mod_tb.sinterface[3] top.mem_mod_tb.sinterface[2] top.mem_mod_tb.sinterface[1] top.mem_mod_tb.sinterface[0]
+[pattern_trace] 1
+[pattern_trace] 0

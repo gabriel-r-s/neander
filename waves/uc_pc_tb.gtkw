@@ -1,0 +1,34 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri Jul  8 13:22:34 2022
+[*]
+[dumpfile] "/home/gabriel/code/vhdl/sd/neander/waves/uc_pc_tb.ghw"
+[dumpfile_mtime] "Fri Jul  8 13:18:46 2022"
+[dumpfile_size] 5598
+[savefile] "/home/gabriel/code/vhdl/sd/neander/waves/uc_pc_tb.gtkw"
+[timestart] 0
+[size] 1065 600
+[pos] -91 21
+*-23.765060 -1 2000000 7600000 30700000 39300000 11100000 43000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[markername] Areset
+[markername] Bjump 252
+[markername] Cread only
+[markername] Djump 10
+[markername] Eincrement
+[markername] Fincrement
+[treeopen] top.
+[treeopen] top.uc_pc_tb.
+[sst_width] 212
+[signals_width] 134
+[sst_expanded] 1
+[sst_vpaned_height] 149
+@28
+top.uc_pc_tb.sreset
+top.uc_pc_tb.sclk
+top.uc_pc_tb.snb_inc
+top.uc_pc_tb.spc_nrw
+@25
+#{top.uc_pc_tb.sbar[7:0]} top.uc_pc_tb.sbar[7] top.uc_pc_tb.sbar[6] top.uc_pc_tb.sbar[5] top.uc_pc_tb.sbar[4] top.uc_pc_tb.sbar[3] top.uc_pc_tb.sbar[2] top.uc_pc_tb.sbar[1] top.uc_pc_tb.sbar[0]
+#{top.uc_pc_tb.send_out[7:0]} top.uc_pc_tb.send_out[7] top.uc_pc_tb.send_out[6] top.uc_pc_tb.send_out[5] top.uc_pc_tb.send_out[4] top.uc_pc_tb.send_out[3] top.uc_pc_tb.send_out[2] top.uc_pc_tb.send_out[1] top.uc_pc_tb.send_out[0]
+[pattern_trace] 1
+[pattern_trace] 0

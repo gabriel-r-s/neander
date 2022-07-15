@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 
 entity ula_mod is
     port(
-        mem: in std_logic_vector(7 downto 0); -- NOTE: INOUT
+        mem: inout std_logic_vector(7 downto 0); -- NOTE: INOUT
         mem_nrw: in std_logic;
 
         ula_op: in std_logic_vector(2 downto 0);    
@@ -47,11 +47,11 @@ architecture b of ula_mod is
         );
     end component;
 
-    signal ac_out, ula_out, mem_inout: std_logic_vector(7 downto 0);
+    signal ac_out, ula_out: std_logic_vector(7 downto 0);
     signal szf, snf: std_logic;
 begin
+    mem <= ac_out when mem_nrw='1' else "ZZZZZZZZ";
     u_alu: ula_alu port map(ac_out, mem, ula_op, szf, snf, ula_out);
     u_flags: flags port map(szf, snf, ac_nrw, reset, clk, zf, nf);
     u_ac: reg8 port map(ula_out, ac_nrw, reset, clk, ac_out);
-    -- u_mem: ?
 end;
