@@ -52,6 +52,7 @@ architecture b OF NEANDER is
         port(
             bar: inout std_logic_vector(7 downto 0);
             ri_nrw: in std_logic;
+            zf, nf: in std_logic;
             
             reset: in std_logic;
             clk: in std_logic;
@@ -69,6 +70,6 @@ begin
     u_ula: ula_mod port map(bar_geral, ctl(3), ctl(8 downto 6), ctl(4), reset, clk, zf, nf);
     u_pc: pc port map(ctl(10), ctl(5), bar_geral, reset, clk, rip_out);
     u_mem: mem_mod port map(rip_out, bar_geral, ctl(9), ctl(2), ctl(3), ctl(1), reset, clk, bar_geral);
-    u_uc: uc_mod port map(bar_geral, ctl(0), reset, clk, ctl);
+    u_uc: uc_mod port map(bar_geral, ctl(0), zf, nf, reset, clk, ctl);
 end;
 

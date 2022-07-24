@@ -1,0 +1,56 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sun Jul 24 19:57:22 2022
+[*]
+[dumpfile] "/home/gabriel/code/vhdl/sd/neander/waves/NEANDER_TBSTA.ghw"
+[dumpfile_mtime] "Sun Jul 24 19:28:12 2022"
+[dumpfile_size] 42201
+[savefile] "/home/gabriel/code/vhdl/sd/neander/waves/NEANDER_TBSTA.gtkw"
+[timestart] 105780000
+[size] 1366 705
+[pos] -1 -1
+*-22.568398 36000000 4000000 16000000 36000000 48000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[markername] CFETCH STA
+[markername] DEXECUTE
+[treeopen] top.
+[treeopen] top.neander_tb.
+[treeopen] top.neander_tb.u_neander.
+[treeopen] top.neander_tb.u_neander.u_mem.
+[treeopen] top.neander_tb.u_neander.u_mem.u_mem.
+[treeopen] top.neander_tb.u_neander.u_mem.u_mem.ram.
+[sst_width] 212
+[signals_width] 136
+[sst_expanded] 1
+[sst_vpaned_height] 186
+@28
+top.neander_tb.sclk
+top.neander_tb.sreset
+@200
+-UC/PC
+@28
+#{top.neander_tb.u_neander.u_uc.u_ctl.st[2:0]} top.neander_tb.u_neander.u_uc.u_ctl.st[2] top.neander_tb.u_neander.u_uc.u_ctl.st[1] top.neander_tb.u_neander.u_uc.u_ctl.st[0]
+@24
+#{top.neander_tb.u_neander.u_pc.spc[7:0]} top.neander_tb.u_neander.u_pc.spc[7] top.neander_tb.u_neander.u_pc.spc[6] top.neander_tb.u_neander.u_pc.spc[5] top.neander_tb.u_neander.u_pc.spc[4] top.neander_tb.u_neander.u_pc.spc[3] top.neander_tb.u_neander.u_pc.spc[2] top.neander_tb.u_neander.u_pc.spc[1] top.neander_tb.u_neander.u_pc.spc[0]
+#{top.neander_tb.u_neander.u_uc.ri_out[7:0]} top.neander_tb.u_neander.u_uc.ri_out[7] top.neander_tb.u_neander.u_uc.ri_out[6] top.neander_tb.u_neander.u_uc.ri_out[5] top.neander_tb.u_neander.u_uc.ri_out[4] top.neander_tb.u_neander.u_uc.ri_out[3] top.neander_tb.u_neander.u_uc.ri_out[2] top.neander_tb.u_neander.u_uc.ri_out[1] top.neander_tb.u_neander.u_uc.ri_out[0]
+@29
+#{top.neander_tb.u_neander.u_uc.u_ctl.inst[10:0]} top.neander_tb.u_neander.u_uc.u_ctl.inst[10] top.neander_tb.u_neander.u_uc.u_ctl.inst[9] top.neander_tb.u_neander.u_uc.u_ctl.inst[8] top.neander_tb.u_neander.u_uc.u_ctl.inst[7] top.neander_tb.u_neander.u_uc.u_ctl.inst[6] top.neander_tb.u_neander.u_uc.u_ctl.inst[5] top.neander_tb.u_neander.u_uc.u_ctl.inst[4] top.neander_tb.u_neander.u_uc.u_ctl.inst[3] top.neander_tb.u_neander.u_uc.u_ctl.inst[2] top.neander_tb.u_neander.u_uc.u_ctl.inst[1] top.neander_tb.u_neander.u_uc.u_ctl.inst[0]
+@28
+#{top.neander_tb.u_neander.u_uc.u_ctl.bar_ctl[10:0]} top.neander_tb.u_neander.u_uc.u_ctl.bar_ctl[10] top.neander_tb.u_neander.u_uc.u_ctl.bar_ctl[9] top.neander_tb.u_neander.u_uc.u_ctl.bar_ctl[8] top.neander_tb.u_neander.u_uc.u_ctl.bar_ctl[7] top.neander_tb.u_neander.u_uc.u_ctl.bar_ctl[6] top.neander_tb.u_neander.u_uc.u_ctl.bar_ctl[5] top.neander_tb.u_neander.u_uc.u_ctl.bar_ctl[4] top.neander_tb.u_neander.u_uc.u_ctl.bar_ctl[3] top.neander_tb.u_neander.u_uc.u_ctl.bar_ctl[2] top.neander_tb.u_neander.u_uc.u_ctl.bar_ctl[1] top.neander_tb.u_neander.u_uc.u_ctl.bar_ctl[0]
+@200
+-ULA
+@24
+#{top.neander_tb.u_neander.u_ula.mem[7:0]} top.neander_tb.u_neander.u_ula.mem[7] top.neander_tb.u_neander.u_ula.mem[6] top.neander_tb.u_neander.u_ula.mem[5] top.neander_tb.u_neander.u_ula.mem[4] top.neander_tb.u_neander.u_ula.mem[3] top.neander_tb.u_neander.u_ula.mem[2] top.neander_tb.u_neander.u_ula.mem[1] top.neander_tb.u_neander.u_ula.mem[0]
+#{top.neander_tb.u_neander.u_ula.ac_out[7:0]} top.neander_tb.u_neander.u_ula.ac_out[7] top.neander_tb.u_neander.u_ula.ac_out[6] top.neander_tb.u_neander.u_ula.ac_out[5] top.neander_tb.u_neander.u_ula.ac_out[4] top.neander_tb.u_neander.u_ula.ac_out[3] top.neander_tb.u_neander.u_ula.ac_out[2] top.neander_tb.u_neander.u_ula.ac_out[1] top.neander_tb.u_neander.u_ula.ac_out[0]
+@200
+-MEM
+@24
+#{top.neander_tb.u_neander.u_mem.smar_out[7:0]} top.neander_tb.u_neander.u_mem.smar_out[7] top.neander_tb.u_neander.u_mem.smar_out[6] top.neander_tb.u_neander.u_mem.smar_out[5] top.neander_tb.u_neander.u_mem.smar_out[4] top.neander_tb.u_neander.u_mem.smar_out[3] top.neander_tb.u_neander.u_mem.smar_out[2] top.neander_tb.u_neander.u_mem.smar_out[1] top.neander_tb.u_neander.u_mem.smar_out[0]
+#{top.neander_tb.u_neander.u_mem.smbr_out[7:0]} top.neander_tb.u_neander.u_mem.smbr_out[7] top.neander_tb.u_neander.u_mem.smbr_out[6] top.neander_tb.u_neander.u_mem.smbr_out[5] top.neander_tb.u_neander.u_mem.smbr_out[4] top.neander_tb.u_neander.u_mem.smbr_out[3] top.neander_tb.u_neander.u_mem.smbr_out[2] top.neander_tb.u_neander.u_mem.smbr_out[1] top.neander_tb.u_neander.u_mem.smbr_out[0]
+#{top.neander_tb.u_neander.u_mem.u_mem.ram[128][7:0]} top.neander_tb.u_neander.u_mem.u_mem.ram[128][7] top.neander_tb.u_neander.u_mem.u_mem.ram[128][6] top.neander_tb.u_neander.u_mem.u_mem.ram[128][5] top.neander_tb.u_neander.u_mem.u_mem.ram[128][4] top.neander_tb.u_neander.u_mem.u_mem.ram[128][3] top.neander_tb.u_neander.u_mem.u_mem.ram[128][2] top.neander_tb.u_neander.u_mem.u_mem.ram[128][1] top.neander_tb.u_neander.u_mem.u_mem.ram[128][0]
+#{top.neander_tb.u_neander.u_mem.u_mem.ram[129][7:0]} top.neander_tb.u_neander.u_mem.u_mem.ram[129][7] top.neander_tb.u_neander.u_mem.u_mem.ram[129][6] top.neander_tb.u_neander.u_mem.u_mem.ram[129][5] top.neander_tb.u_neander.u_mem.u_mem.ram[129][4] top.neander_tb.u_neander.u_mem.u_mem.ram[129][3] top.neander_tb.u_neander.u_mem.u_mem.ram[129][2] top.neander_tb.u_neander.u_mem.u_mem.ram[129][1] top.neander_tb.u_neander.u_mem.u_mem.ram[129][0]
+#{top.neander_tb.u_neander.u_mem.u_mem.ram[130][7:0]} top.neander_tb.u_neander.u_mem.u_mem.ram[130][7] top.neander_tb.u_neander.u_mem.u_mem.ram[130][6] top.neander_tb.u_neander.u_mem.u_mem.ram[130][5] top.neander_tb.u_neander.u_mem.u_mem.ram[130][4] top.neander_tb.u_neander.u_mem.u_mem.ram[130][3] top.neander_tb.u_neander.u_mem.u_mem.ram[130][2] top.neander_tb.u_neander.u_mem.u_mem.ram[130][1] top.neander_tb.u_neander.u_mem.u_mem.ram[130][0]
+#{top.neander_tb.u_neander.u_mem.u_mem.ram[131][7:0]} top.neander_tb.u_neander.u_mem.u_mem.ram[131][7] top.neander_tb.u_neander.u_mem.u_mem.ram[131][6] top.neander_tb.u_neander.u_mem.u_mem.ram[131][5] top.neander_tb.u_neander.u_mem.u_mem.ram[131][4] top.neander_tb.u_neander.u_mem.u_mem.ram[131][3] top.neander_tb.u_neander.u_mem.u_mem.ram[131][2] top.neander_tb.u_neander.u_mem.u_mem.ram[131][1] top.neander_tb.u_neander.u_mem.u_mem.ram[131][0]
+#{top.neander_tb.u_neander.u_mem.u_mem.ram[132][7:0]} top.neander_tb.u_neander.u_mem.u_mem.ram[132][7] top.neander_tb.u_neander.u_mem.u_mem.ram[132][6] top.neander_tb.u_neander.u_mem.u_mem.ram[132][5] top.neander_tb.u_neander.u_mem.u_mem.ram[132][4] top.neander_tb.u_neander.u_mem.u_mem.ram[132][3] top.neander_tb.u_neander.u_mem.u_mem.ram[132][2] top.neander_tb.u_neander.u_mem.u_mem.ram[132][1] top.neander_tb.u_neander.u_mem.u_mem.ram[132][0]
+#{top.neander_tb.u_neander.u_mem.u_mem.ram[133][7:0]} top.neander_tb.u_neander.u_mem.u_mem.ram[133][7] top.neander_tb.u_neander.u_mem.u_mem.ram[133][6] top.neander_tb.u_neander.u_mem.u_mem.ram[133][5] top.neander_tb.u_neander.u_mem.u_mem.ram[133][4] top.neander_tb.u_neander.u_mem.u_mem.ram[133][3] top.neander_tb.u_neander.u_mem.u_mem.ram[133][2] top.neander_tb.u_neander.u_mem.u_mem.ram[133][1] top.neander_tb.u_neander.u_mem.u_mem.ram[133][0]
+[pattern_trace] 1
+[pattern_trace] 0

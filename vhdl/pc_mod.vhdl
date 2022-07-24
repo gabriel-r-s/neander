@@ -13,13 +13,13 @@ entity pc is
 end;
 
 architecture b of pc is
-    component reg8 is
+    component ff_charge is
         port(
-            d: in std_logic_vector(7 downto 0);
-            nrw: in std_logic;
-            reset: in std_logic;
+            d: in std_logic;
+            nrw: in std_logic; -- se 0=read, 1=write
             clk: in std_logic;
-            q: out std_logic_vector(7 downto 0)
+            pr, cl: in std_logic;
+            q: out std_logic
         );
     end component;
 
@@ -39,7 +39,9 @@ architecture b of pc is
 begin
     u_add: add8 port map(szero, spc, vcc, cout_dump, sadd);
     smux <= barr when nb_inc='0' else sadd;
-    u_pc: reg8 port map(smux, pc_nrw, reset, clk, spc);
+    u_pc_gen: for i in 7 downto 0 generate
+        u_ffc: ff_charge port map(smux(i), pc_nrw, clk, vcc, reset, spc(i));
+    end generate;
     end_out <= spc;
 end;
 

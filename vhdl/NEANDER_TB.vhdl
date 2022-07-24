@@ -15,14 +15,14 @@ architecture tb of NEANDER_TB is
     end component;
     
     signal sreset: std_logic;
-    signal sclk: std_logic := '0';
+    signal sclk: std_logic := '1';
 begin
     u_NEANDER: NEANDER port map(sreset, sclk);
     
     t_tb: process begin
-        sreset <= '1';
-        wait for CLK_PERIOD;
         sreset <= '0';
+        wait for CLK_PERIOD;
+        sreset <= '1';
         wait;
     end process;
 

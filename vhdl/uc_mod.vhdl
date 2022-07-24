@@ -6,6 +6,7 @@ entity uc_mod is
     port(
         bar: inout std_logic_vector(7 downto 0);
         ri_nrw: in std_logic;
+        zf, nf: in std_logic;
         
         reset: in std_logic;
         clk: in std_logic;
@@ -38,9 +39,10 @@ architecture b of uc_mod is
         port(
             inst: in std_logic_vector(10 downto 0);
             -- 10nop|9lda|8sta|7add|6and|5or|4not|3jmp|2jn|1jz|0hlt
+            zf, nf: in std_logic;
             reset: in std_logic;
             clk: in std_logic;
-            outs: out std_logic_vector(10 downto 0)
+            bar_ctl: out std_logic_vector(10 downto 0)
             -- 10nb_inc|9nb_pc|8..6ula_op|5pc_nrw|4ac_nrw|3mem_nrw|2mar_nrw|1mbr_nrw|0ri_nrw
         );
     end component;
@@ -49,6 +51,6 @@ architecture b of uc_mod is
 begin
     u_ri: reg8 port map(bar, ri_nrw, reset, clk, ri_out);
     u_decoder: uc_decode port map(ri_out, decoded);
-    u_ctl: uc_ctl port map(decoded, reset, clk, bar_ctl);
+    u_ctl: uc_ctl port map(decoded, zf, nf, reset, clk, bar_ctl);
 end;
 
